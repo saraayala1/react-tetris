@@ -1,10 +1,9 @@
 import React from 'react'
+import { StyledDisplay } from './styles/StyledDisplay';
+
 
 const Display = ({ gameOver, text}) => (
-<div>
-
-<p>display</p>
-</div>
+<StyledDisplay gameOver={gameOver}>{text}</StyledDisplay>
 )
 
 
